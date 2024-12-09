@@ -5,6 +5,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontWeight: {
+        'medium': 500,
+        'extrabold': 800,
+        'bold': 700,
+        'semibold': 600,
+      },
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
       },

@@ -1,14 +1,45 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Hide the default scrollbar */
 
+/* Create a custom scrollbar container */
+.scroll-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  overflow-y: scroll;
+  box-sizing: border-box;
+}
+
+/* Apply custom scrollbar styles only on screens wider than 768px */
+@media (min-width: 768px) {
+  .scroll-container::-webkit-scrollbar {
+    width: 4px;
+  }
+
+  .scroll-container::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb {
+    background: rgb(249 115 22);
+    border-radius: 4px;
+  }
+
+  .scroll-container::-webkit-scrollbar-thumb:hover {
+    background: rgb(168 85 247);
+  }
+}
 
 body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: 'Roboto', sans-serif;
-  background-color: white;
+  font-family: "Roboto", sans-serif;
+  background-color: rgb(147 51 234);
 }
