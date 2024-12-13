@@ -1,5 +1,5 @@
 import React from "react";
-
+// spell-checker: disable
 const Footer = () => {
   return (
     <footer class="bg-purple-600 py-6 px-10 font-sans tracking-wide">

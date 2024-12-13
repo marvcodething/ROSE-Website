@@ -1,6 +1,6 @@
 import React from 'react';
 import banner from '../assets/banner.jpg';
-
+// spell-checker: disable
 const Banner = () => {
   return (
     <div className="relative font-sans">

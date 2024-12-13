@@ -4,7 +4,7 @@ import { FaPhoneVolume } from "react-icons/fa6";
 import contactbanner from '../assets/contactbanner.png';
 import { Toaster, toast } from 'react-hot-toast';
 import emailjs from 'emailjs-com';
-
+// spell-checker: disable
 const Contact = () => {
   // Email Code
   const onSubmit = async (event) => {

@@ -1,7 +1,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
 import { useInView } from 'react-intersection-observer';
-
+// spell-checker: disable
 const CountupCard = () => {
   const { ref, inView } = useInView({
     triggerOnce: true,

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
-
+// spell-checker: disable
 function Navbar() {
     const [nav, setNav] = useState(false);
     const [dropdown, setDropdown] = useState(false);

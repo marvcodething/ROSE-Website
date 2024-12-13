@@ -1,7 +1,7 @@
 import React from 'react';
 import { Toaster, toast } from 'react-hot-toast';
 import unionbanner from '../assets/unionbanner.png';
-
+// spell-checker: disable
 const UnionCard = () => {
   const onSubmit = async (event) => {
     event.preventDefault();

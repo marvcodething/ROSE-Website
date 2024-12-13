@@ -11,7 +11,7 @@ const Blog = () => {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-16 max-md:max-w-lg mx-auto">
           {/* Blog Post 1 */}
-          <div className="cursor-pointer rounded overflow-hidden group bg-white shadow-md p-6 flex flex-col justify-between h-full hover:shadow-xl transition-all duration-300">
+          <div className="cursor-pointer rounded overflow-hidden group bg-white shadow-xl p-6 flex flex-col justify-between h-full hover:shadow-md transition-all duration-300">
             <div>
               <span className="text-sm block text-gray-400 mb-2">15 NOV 2023</span>
               <h3 className="ease-in-out duration-300 text-xl font-bold text-gray-800 group-hover:text-purple-500 transition-all">
@@ -26,7 +26,7 @@ const Blog = () => {
             <hr className="my-5 border-gray-300" />
           </div>
           {/* Blog Post 2 */}
-          <div className="cursor-pointer rounded overflow-hidden group bg-white shadow-md p-6 flex flex-col justify-between h-full hover:shadow-xl transition-all duration-300">
+          <div className="cursor-pointer rounded overflow-hidden group bg-white shadow-xl p-6 flex flex-col justify-between h-full hover:shadow-md transition-all duration-300">
             <div>
               <span className="text-sm block text-gray-400 mb-2">3 DEC 2023</span>
               <h3 className="ease-in-out duration-300 text-xl font-bold text-gray-800 group-hover:text-purple-500 transition-all">
@@ -41,7 +41,7 @@ const Blog = () => {
             <hr className="my-5 border-gray-300" />
           </div>
           {/* Blog Post 3 */}
-          <div className="cursor-pointer rounded overflow-hidden group bg-white shadow-md p-6 flex flex-col justify-between h-full hover:shadow-xl transition-all duration-300">
+          <div className="cursor-pointer rounded overflow-hidden group bg-white shadow-xl p-6 flex flex-col justify-between h-full hover:shadow-md transition-all duration-300">
             <div>
               <span className="text-sm block text-gray-400 mb-2">10 JAN 2024</span>
               <h3 className="ease-in-out duration-300 text-xl font-bold text-gray-800 group-hover:text-purple-500 transition-all">

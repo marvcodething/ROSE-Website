@@ -1,5 +1,5 @@
 import React from 'react'
-
+// spell-checker: disable
 const Hero = () => {
   return (
     <div className='text-black'>

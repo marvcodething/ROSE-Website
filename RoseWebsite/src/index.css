@@ -2,7 +2,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* spell-checker: disable
 /* Hide the default scrollbar */
 
 /* Create a custom scrollbar container */

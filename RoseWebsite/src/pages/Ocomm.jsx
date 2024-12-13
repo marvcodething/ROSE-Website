@@ -2,7 +2,7 @@ import React from 'react';
 import { FaInstagram, FaMailBulk } from "react-icons/fa";
 import { Toaster, toast } from 'react-hot-toast';
 import ocommbanner from '../assets/ocommbanner.png';
-
+// spell-checker: disable
 const Ocomm = () => {
   // Email Code
   const onSubmit = async (event) => {

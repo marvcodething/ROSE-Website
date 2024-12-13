@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+// spell-checker: disable
 const Faq = () => {
   // State to track which accordion item is open
   const [openIndex, setOpenIndex] = useState(null);

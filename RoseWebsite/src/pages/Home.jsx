@@ -21,7 +21,7 @@ const Home = () => {
         <div className="grid lg:grid-cols-2 gap-12 lg:max-w-6xl max-w-2xl mx-auto">
         <div className="text-left">
             <h2 className="text-gray-800 text-3xl font-bold mb-6">
-              Empowering Occidental Students Through Unity
+            Rising Occidental Student Employees: SEIU 721
             </h2>
             <p className="mb-4 text-sm text-gray-500">
               The Occidental Student Union is dedicated to advocating for the rights, welfare, and opportunities of student workers on campus. We strive to build a strong community where student voices are heard and respected.

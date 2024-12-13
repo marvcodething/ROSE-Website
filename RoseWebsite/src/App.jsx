@@ -4,6 +4,8 @@ import Home from './pages/Home';
 import Navbar from './components/Navbar'; // Import the Navbar component
 import './index.css';
 import Faq from './pages/Faq';
+import OnePost from './components/OnePost';
+// spell-checker: disable
 import Contact from './pages/Contact';
 import Ocomm from './pages/Ocomm';
 import Footer from './components/Footer';
@@ -15,6 +17,7 @@ function App() {
       <Navbar className='z-50'/>
       <div className="main-content">
         <Routes>
+          <Route path="/news/:slug" element={<OnePost />} />
           <Route path="/" element={<Home />} />
           <Route path="/faq" element={<Faq />} />
           <Route path="/contact" element={<Contact />} />
