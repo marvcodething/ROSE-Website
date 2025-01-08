@@ -93,7 +93,7 @@ const Contact = () => {
           <div className="flex justify-center mt-12">
             <div className="flex flex-col items-center text-center mx-20">
               <FaInstagram className="w-10 h-10 text-purple-600" />
-              <h4 className="text-gray-800 text-base font-bold mt-4">DM us</h4>
+              <h4 className="text-gray-800 text-base font-bold mt-4">DM Us!</h4>
               <p className="text-sm text-gray-500 mt-2">@rose.seiu</p>
             </div>
           </div>

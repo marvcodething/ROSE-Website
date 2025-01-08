@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer class="bg-purple-600 py-6 px-10 font-sans tracking-wide">
       <div class="flex items-center justify-between max-sm:flex-col gap-5">
-        <p class="text-lg font-bold text-black">Follow us</p>
+        <p class="text-lg font-bold text-black">Follow ROSE</p>
 
         <ul class="flex flex-wrap justify-center gap-x-8 gap-4">
           <li>
