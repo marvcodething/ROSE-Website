@@ -89,7 +89,9 @@ function Navbar() {
                                 <Link to="/ocomm" onClick={closeNav} className="block px-4 py-2 hover:bg-orange-500">
                                     <li>OCOMM Signup</li>
                                 </Link>
-                                <li className="px-4 py-2 hover:bg-orange-500 cursor-pointer">Bargaining Portal</li>
+                                <Link to="/bargaining" onClick={closeNav} className="block px-4 py-2 hover:bg-orange-500">
+                                    <li>Bargaining Portal</li>
+                                </Link>
                                 <li className="hidden px-4 py-2 hover:bg-orange-500 cursor-pointer">Data Center</li>
                             </ul>
                         )}
