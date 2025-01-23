@@ -9,7 +9,7 @@ import OnePost from './components/OnePost';
 import Contact from './pages/Contact';
 import Ocomm from './pages/Ocomm';
 import Footer from './components/Footer';
-import UnionCard from './pages/unionCard'; // Fixed casing to match actual file
+import UnionCard from './pages/UnionCard'; // Fixed casing to match actual file
 import News from './pages/News';
 import Bargaining from './pages/Bargaining';
 function App() {
