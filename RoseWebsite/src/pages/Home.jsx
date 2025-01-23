@@ -50,12 +50,14 @@ const Home = () => {
                 Get Support
               </button>
             </Link>
-            <button
-              type="button"
-              className="transition-all ease-in-out duration-500 w-full px-8 py-4 font-semibold rounded-full text-purple-700 text-lg tracking-wider font-medium border border-purple-700 bg-transparent hover:bg-purple-100 hover:border-purple-800 hover:text-xl hover:font-extrabold"
-            >
-              Bargaining Portal
-            </button>
+            <Link to="/bargaining" className="w-full">
+              <button
+                type="button"
+                className="transition-all ease-in-out duration-500 w-full px-8 py-4 font-semibold rounded-full text-purple-700 text-lg tracking-wider font-medium border border-purple-700 bg-transparent hover:bg-purple-100 hover:border-purple-800 hover:text-xl hover:font-extrabold"
+              >
+                Bargaining Portal
+              </button>
+            </Link>
           </div>
         </div>
       </div>
