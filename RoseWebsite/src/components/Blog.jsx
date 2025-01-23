@@ -13,13 +13,13 @@ const Blog = () => {
           {/* Blog Post 1 */}
           <div className="cursor-pointer rounded overflow-hidden group bg-white shadow-xl p-6 flex flex-col justify-between h-full hover:shadow-md transition-all duration-300">
             <div>
-              <span className="text-sm block text-gray-400 mb-2">15 NOV 2023</span>
+              <span className="text-sm block text-gray-400 mb-2">22 JAN 2025</span>
               <h3 className="ease-in-out duration-300 text-xl font-bold text-gray-800 group-hover:text-purple-500 transition-all">
-                Occidental Student Union Celebrates Wage Victory
+                Bargaining Report 
               </h3>
               <div className="mt-4">
                 <p className="text-gray-400 text-sm">
-                  ROSE successfully negotiated a 15% wage increase for student workers. Learn how this sets a new standard for on-campus employment.
+                Latest bargaining update: ROSE advocated for tuition freezes, sanctuary campus status, and protest protections. Administration countered with reduced sick pay, mandatory direct deposit, strike restrictions, and limited union stewards.
                 </p>
               </div>
             </div>
@@ -28,13 +28,13 @@ const Blog = () => {
           {/* Blog Post 2 */}
           <div className="cursor-pointer rounded overflow-hidden group bg-white shadow-xl p-6 flex flex-col justify-between h-full hover:shadow-md transition-all duration-300">
             <div>
-              <span className="text-sm block text-gray-400 mb-2">3 DEC 2023</span>
+              <span className="text-sm block text-gray-400 mb-2">12 JAN 2025</span>
               <h3 className="ease-in-out duration-300 text-xl font-bold text-gray-800 group-hover:text-purple-500 transition-all">
-                Join Our Mental Health Workshop
+              Wildfire Mutual Aid Updates
               </h3>
               <div className="mt-4">
                 <p className="text-gray-400 text-sm">
-                  ROSE is hosting a workshop focusing on mental health and the challenges of balancing work and academics. Don’t miss this opportunity to prioritize your well-being.
+                Thank you from the bottom of our hearts for your contributions to the mutual aid fund. Thanks to you, we were able to raise $9,291 over the last 4 days. These funds have gone directly to Oxy students, alumni, staff and community members who have been affected by the Eaton Fire, or have been used to purchase hard-to-find supplies.
                 </p>
               </div>
             </div>
@@ -43,13 +43,13 @@ const Blog = () => {
           {/* Blog Post 3 */}
           <div className="cursor-pointer rounded overflow-hidden group bg-white shadow-xl p-6 flex flex-col justify-between h-full hover:shadow-md transition-all duration-300">
             <div>
-              <span className="text-sm block text-gray-400 mb-2">10 JAN 2024</span>
+              <span className="text-sm block text-gray-400 mb-2">9 JAN 2025</span>
               <h3 className="ease-in-out duration-300 text-xl font-bold text-gray-800 group-hover:text-purple-500 transition-all">
-                ROSE Resource Center Opens
+                Emergency Mutual Aid for Wildfires
               </h3>
               <div className="mt-4">
                 <p className="text-gray-400 text-sm">
-                  The new Resource Center is here to support student workers with tools, advice, and guidance for navigating workplace challenges.
+                Need wildfire emergency support? We're distributing emergency funds, KN95 masks, supplies, power banks, gas, and more to affected families. Fill out our request form for assistance.
                 </p>
               </div>
             </div>

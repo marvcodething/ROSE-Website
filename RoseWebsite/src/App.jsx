@@ -9,8 +9,9 @@ import OnePost from './components/OnePost';
 import Contact from './pages/Contact';
 import Ocomm from './pages/Ocomm';
 import Footer from './components/Footer';
-import UnionCard from './pages/UnionCard';
+import UnionCard from './pages/unionCard'; // Fixed casing to match actual file
 import News from './pages/News';
+import Bargaining from './pages/Bargaining';
 function App() {
   return (
     <BrowserRouter> 
@@ -24,6 +25,7 @@ function App() {
           <Route path="/ocomm" element={<Ocomm />} />
           <Route path="/UnionCard" element={<UnionCard />} />
           <Route path="/news" element={<News />} />
+          <Route path="/bargaining" element={<Bargaining />} />
         </Routes>
       </div>
       <Footer className='z-50'/>

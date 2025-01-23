@@ -26,7 +26,7 @@ function Navbar() {
     }, [location]);
 
     return (
-        <div className="font-roboto top-0 left-0 flex justify-between items-center h-20 w-full px-4 bg-purple-600 z-50">
+        <div className="sticky md:static font-roboto top-0 left-0 flex justify-between items-center h-20 w-full px-4 bg-purple-600 z-50">
             <Link to="/" onClick={closeNav}>
                 <img src={logo} alt="Rose Logo" className="w-12 h-12" />
             </Link>
@@ -47,8 +47,11 @@ function Navbar() {
                             <Link to="/ocomm" onClick={closeNav} className="block px-4 py-2 hover:bg-orange-500 transition-colors duration-300">
                                 <li>OCOMM Signup</li>
                             </Link>
-                            <li className="px-4 py-2 hover:bg-orange-500 transition-colors duration-300 cursor-pointer">Bargaining Portal</li>
-                            <li className="px-4 py-2 hover:bg-orange-500 transition-colors duration-300 cursor-pointer">Data Center</li>
+                            <Link to="/bargaining" onClick={closeNav} className="block px-4 py-2 hover:bg-orange-500 transition-colors duration-300">
+                            <li>Bargaining Portal</li>
+                            </Link>
+                            
+                            <li className="hidden px-4 py-2 hover:bg-orange-500 transition-colors duration-300 cursor-pointer">Data Center</li>
                         </ul>
                     )}
                 </li>
@@ -87,7 +90,7 @@ function Navbar() {
                                     <li>OCOMM Signup</li>
                                 </Link>
                                 <li className="px-4 py-2 hover:bg-orange-500 cursor-pointer">Bargaining Portal</li>
-                                <li className="px-4 py-2 hover:bg-orange-500 cursor-pointer">Data Center</li>
+                                <li className="hidden px-4 py-2 hover:bg-orange-500 cursor-pointer">Data Center</li>
                             </ul>
                         )}
                     </li>

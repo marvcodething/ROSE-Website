@@ -26,7 +26,7 @@ const News = () => {
     <div className="bg-white min-h-screen p-12">
       <div className="container mx-auto">
         <h2 className="text-5xl flex justify-center">News</h2>
-        <h3 className="text-lg text-gray-600 flex justify-center mb-12">ROSE Updates</h3>
+        <h3 className="text-lg text-gray-600 flex justify-center mb-12">Currently Under Maintenance</h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {allPostsData && allPostsData.map((post, index) => (
             <Link to={"/news/" + post.slug.current} key={post.slug.current}>
